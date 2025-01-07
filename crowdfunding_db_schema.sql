@@ -1,7 +1,6 @@
-DROP TABLE IF EXISTS category;
-DROP TABLE IF EXISTS subcategory;
-DROP TABLE IF EXISTS campaign;
-DROP TABLE IF EXISTS contacts;
+DROP DATABASE IF EXISTS crowdfunding_db;
+CREATE DATABASE crowdfunding_db;
+ 
 
 
 CREATE TABLE category (
@@ -44,6 +43,11 @@ CREATE TABLE campaign (
     PRIMARY KEY (cf_id)
     
 );
+
+-- SELECT * FROM category
+-- SELECT * FROM subcategory
+-- SELECT * FROM contacts
+-- SELECT * FROM campaign
 
 
 
